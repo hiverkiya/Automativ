@@ -83,7 +83,6 @@ export const UpgradeModal = ({
             from-indigo-500/15
             via-blue-500/15
             to-cyan-500/15
-            blur-3xl
           "
         />
 

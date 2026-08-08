@@ -4,10 +4,12 @@ import {
   applyEdgeChanges,
   applyNodeChanges,
   Background,
+  BackgroundVariant,
   type Connection,
   Controls,
   type Edge,
   type EdgeChange,
+  MarkerType,
   MiniMap,
   type Node,
   type NodeChange,
@@ -51,6 +53,21 @@ export const Editor = ({ workflowId }: { workflowId: string }) => {
     return nodes.some((node) => node.type === NodeType.MANUAL_TRIGGER);
   }, [nodes]);
 
+  const defaultEdgeOptions = useMemo(
+    () => ({
+      type: "smoothstep",
+      animated: true,
+      style: { strokeWidth: 1, stroke: "#93c5fd" },
+      markerEnd: {
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: "#93c5fd",
+      },
+    }),
+    [],
+  );
+
   return (
     <div className="size-full">
       <ReactFlow
@@ -60,6 +77,7 @@ export const Editor = ({ workflowId }: { workflowId: string }) => {
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeComponents}
         onConnect={onConnect}
+        defaultEdgeOptions={defaultEdgeOptions}
         fitView
         onInit={setEditor}
         snapGrid={[25, 25]}
@@ -71,12 +89,20 @@ export const Editor = ({ workflowId }: { workflowId: string }) => {
         deleteKeyCode={["Delete"]}
         selectionOnDrag
       >
-        <Background gap={25} />
+        <Background
+          variant={BackgroundVariant.Dots}
+          gap={25}
+          size={1.5}
+          className="opacity-40"
+          color="#93c5fd"
+        />
 
-        <Controls />
+        <Controls className="bg-background/80 backdrop-blur-sm border-border shadow-sm rounded-lg overflow-hidden [&>button]:border-border [&>button]:bg-transparent hover:[&>button]:bg-muted/50" />
         <MiniMap
           pannable
           zoomable
+          className="rounded-xl border border-border shadow-md bg-background/50 backdrop-blur-md"
+         
           nodeColor={(node) => {
             switch (node.type) {
               case "trigger":

@@ -310,7 +310,7 @@ export default function LearningsPage() {
       <div className="mx-auto max-w-5xl px-6 py-12 md:py-16 lg:px-10">
         <div className="w-full">
           <header className="mb-16 space-y-8">
-            <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-[image:var(--glass-bg)] px-3 py-1 text-xs font-medium tracking-[0.2em] uppercase text-muted-foreground shadow-[0_4px_14px_0_rgba(37,99,235,0.1)] backdrop-blur-sm">
+            <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-[image:var(--glass-bg)] px-3 py-1 text-xs font-medium tracking-[0.2em] uppercase text-muted-foreground shadow-[0_4px_14px_0_rgba(37,99,235,0.1)]">
               <Route className="size-3.5" />
               Repository Memory
             </div>
@@ -332,24 +332,7 @@ export default function LearningsPage() {
             </div>
           </header>
 
-          <section className="mb-16 grid gap-4 md:grid-cols-4">
-            <div className="rounded-2xl border border-border/60 bg-[image:var(--glass-bg)] p-5 text-center shadow-[0_8px_30px_var(--glow-primary)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_var(--glow-cyan)]">
-              <div className="text-3xl font-bold text-transparent bg-clip-text bg-[image:var(--gradient-brand)]">{lessons.length}</div>
-              <div className="mt-1 text-sm font-medium text-muted-foreground">Lessons Preserved</div>
-            </div>
-            <div className="rounded-2xl border border-border/60 bg-[image:var(--glass-bg)] p-5 text-center shadow-[0_8px_30px_var(--glow-primary)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_var(--glow-cyan)]">
-              <div className="text-3xl font-bold text-transparent bg-clip-text bg-[image:var(--gradient-brand)]">{decisions.length}</div>
-              <div className="mt-1 text-sm font-medium text-muted-foreground">Architecture Decisions</div>
-            </div>
-            <div className="rounded-2xl border border-border/60 bg-[image:var(--glass-bg)] p-5 text-center shadow-[0_8px_30px_var(--glow-primary)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_var(--glow-cyan)]">
-              <div className="text-3xl font-bold text-transparent bg-clip-text bg-[image:var(--gradient-brand)]">{debugging.length}</div>
-              <div className="mt-1 text-sm font-medium text-muted-foreground">Debugging Patterns</div>
-            </div>
-            <div className="rounded-2xl border border-border/60 bg-[image:var(--glass-bg)] p-5 text-center shadow-[0_8px_30px_var(--glow-primary)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_var(--glow-cyan)]">
-              <div className="text-3xl font-bold text-transparent bg-clip-text bg-[image:var(--gradient-brand)]">{invariants.length}</div>
-              <div className="mt-1 text-sm font-medium text-muted-foreground">Maintenance Rules</div>
-            </div>
-          </section>
+
 
           <section className="mb-16 grid gap-5 md:grid-cols-3">
             <article className="rounded-2xl border bg-gradient-to-br from-background to-muted/30 p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
@@ -590,7 +573,7 @@ export default function LearningsPage() {
         </div>
       </div>
 
-      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-border/70 bg-background/85 px-4 py-4 backdrop-blur-xl supports-[backdrop-filter]:bg-background/70">
+      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-border/70 bg-background/85 px-4 py-4 supports-[backdrop-filter]:bg-background/70">
         <div className="mx-auto flex max-w-7xl justify-center">
           <Button asChild variant="premiumSoft" className="rounded-full shadow-[0_8px_30px_var(--glow-premium)] transition-all hover:scale-105 px-8 h-11">
             <Link href="/">

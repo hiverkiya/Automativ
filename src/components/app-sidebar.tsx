@@ -69,7 +69,7 @@ export const AppSidebar = () => {
   return (
     <Sidebar
       collapsible="icon"
-      className="border-r border-white/50 bg-white/75 backdrop-blur-3xl"
+      className="border-r border-white/50 bg-white/75"
     >
       <SidebarHeader className="border-b border-white/40 px-2 py-3">
         <SidebarMenu>

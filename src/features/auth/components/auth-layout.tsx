@@ -91,7 +91,7 @@ function LearningsButton() {
       variant="outline"
       className="fixed! bottom-8 left-1/2 z-50 -translate-x-1/2 rounded-full  px-6 "
     >
-      <Link href="/learnings" prefetch>
+      <Link href="/learnings" target="_blank" prefetch>
         <span>What I Learned Building Automativ</span>
         <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
       </Link>
@@ -102,7 +102,7 @@ function BackgroundAnimation() {
   return (
     <div className="pointer-events-none absolute inset-y-0 -right-[8%]  w-[135%] overflow-hidden">
       <motion.div
-        className="absolute top-[2%] right-[14%] h-[340px] w-[340px] rounded-full blur-3xl"
+        className="absolute top-[2%] right-[14%] h-[340px] w-[340px] rounded-full"
         style={{
           background:
             "radial-gradient(circle, rgba(37,99,235,0.16), transparent 48%)",
@@ -119,7 +119,7 @@ function BackgroundAnimation() {
       />
 
       <motion.div
-        className="absolute bottom-[10%] right-[8%] h-[300px] w-[300px] rounded-full blur-3xl"
+        className="absolute bottom-[10%] right-[8%] h-[300px] w-[300px] rounded-full"
         style={{
           background:
             "radial-gradient(circle, rgba(6,182,212,0.14), transparent 68%)",
@@ -358,7 +358,7 @@ export default function AuthLayout({
 
         <div className="flex items-center justify-center px-4 py-4 md:px-10">
           <div className="relative w-full max-w-md">
-            <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-blue-500/30 via-sky-500/20 to-cyan-500/30 blur-xl" />
+            <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-blue-500/30 via-sky-500/20 to-cyan-500/30" />
 
             <div className="relative rounded-[2rem] border border-white/50 bg-white/95 p-2 shadow-[0_25px_80px_-20px_rgba(99,102,241,0.25)] md:p-6">
               <div className="pointer-events-none absolute inset-x-0 top-0 h-20 rounded-t-[2rem] bg-gradient-to-b from-white/40 to-transparent" />

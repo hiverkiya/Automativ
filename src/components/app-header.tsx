@@ -15,8 +15,6 @@ export const AppHeader = () => {
     border-b
     border-white/60
     bg-white/80
-
-    backdrop-blur-3xl
     shadow-[0_1px_0_rgba(255,255,255,0.5)]
   "
     >

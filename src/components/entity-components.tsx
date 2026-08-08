@@ -327,7 +327,6 @@ export const EmptyView = ({ message, onNew }: EmptyViewProps) => {
             from-violet-400/15
             via-blue-400/15
             to-cyan-400/15
-            blur-3xl
           "
         />
 
@@ -504,7 +503,7 @@ export const EntityItem = ({
       <Card
         className={cn(
           "group overflow-hidden rounded-3xl border border-white/40 bg-white/95 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-blue-200/40 hover:shadow-[0_12px_30px_rgba(37,99,235,0.08)] hover:bg-gradient-to-r hover:from-blue-50/90 hover:via-white hover:to-cyan-50/80 focus-visible:ring-2 focus-visible:ring-blue-300/40 focus-visible:ring-offset-2",
-          isRemoving && "scale-95 opacity-40 pointer-events-none blur-[1px]",
+          isRemoving && "scale-95 opacity-40 pointer-events-none-[1px]",
           className,
         )}
       >

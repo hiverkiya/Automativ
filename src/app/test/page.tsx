@@ -105,9 +105,9 @@ export default function TestPage() {
     <main className="relative min-h-screen overflow-hidden bg-background">
       {/* background glows */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-[-8%] top-[-8%] h-[480px] w-[480px] rounded-full bg-blue-500/10 blur-3xl" />
-        <div className="absolute right-[-8%] top-[6%] h-[420px] w-[420px] rounded-full bg-cyan-400/10 blur-3xl" />
-        <div className="absolute bottom-[-10%] left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-blue-400/8 blur-3xl" />
+        <div className="absolute left-[-8%] top-[-8%] h-[480px] w-[480px] rounded-full bg-blue-500/10" />
+        <div className="absolute right-[-8%] top-[6%] h-[420px] w-[420px] rounded-full bg-cyan-400/10" />
+        <div className="absolute bottom-[-10%] left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-blue-400/8" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 py-16">
