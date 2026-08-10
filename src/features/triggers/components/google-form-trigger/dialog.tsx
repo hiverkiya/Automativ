@@ -160,8 +160,8 @@ truncate
                 "Replace WEBHOOK_URL with the URL listed above",
                 "Save & Go to Triggers → Add Trigger",
                 "Function to run: onFormSubmit",
-                "Select Event Source: Time-driven",
-                "Select Event Type: Hour timer & every hour",
+                "Select Event Source: From form",
+                "Select Event Type: On form submit",
                 "Save and authorize the script",
                 "Submit the form once to verify the workflow runs",
               ].map((step, i) => (

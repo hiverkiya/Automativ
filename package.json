@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "dotenv -- concurrently -n NEXT,INNGEST,NGROK -c blue,magenta,yellow \"cross-env next dev --turbopack\" \"npm run inngest:dev\" \"npm run ngrok:dev\"",
+    "demo": "npm run build && dotenv -- concurrently -n NEXT,INNGEST,NGROK -c blue,magenta,yellow \"cross-env INNGEST_DEV=1 next start\" \"npm run inngest:dev\" \"npm run ngrok:dev\"",
     "build": "next build",
     "start": "next start",
     "predev": "prisma generate",
