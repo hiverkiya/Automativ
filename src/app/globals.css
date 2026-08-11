@@ -66,6 +66,7 @@
 
 :root {
   --radius: 0.8rem;
+  --font-geist-mono: "JetBrains Mono", monospace;
 
   /* ============================================================
      BRAND TOKENS
