@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/Automativ-Workflow_Engine-black?style=for-the-badge" alt="Automativ" />
   <h1>Automativ</h1>
   <p><strong>A visual workflow automation application built with Next.js, React Flow, and Inngest.</strong></p>
 
   <p>
-    <a href="https://automativ.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-▶-4f46e5?style=flat-square" alt="Live Demo"></a>
-    <a href="https://automativ.vercel.app/learnings"><img src="https://img.shields.io/badge/Engineering_Learnings-Book-10b981?style=flat-square" alt="Engineering Learnings"></a>
+    <img src="https://img.shields.io/badge/Next.js-15-555555?style=flat-square&logo=next.js&labelColor=black" alt="Next.js 15">
+    <img src="https://img.shields.io/badge/React_Flow-Nodes-555555?style=flat-square&labelColor=ff0071" alt="React Flow">
+    <img src="https://img.shields.io/badge/Inngest-Durable_Workflows-555555?style=flat-square&labelColor=6366f1" alt="Inngest">
   </p>
 
   <p><em>Build directed workflow graphs in a browser canvas, configure trigger and action nodes, save provider credentials, and run workflows through a durable background worker.</em></p>
@@ -13,8 +13,19 @@
 
 <br />
 
-> [!NOTE]
-> This repository is the source of truth for the product as it exists today. The sibling `nodebase-main` repository is historical reference material only. It can explain where some early patterns came from, but it should not override current Automativ behavior, route structure, data shape, or product decisions.
+## 📸 Quick Demo
+
+<div align="center">
+
+<video src="https://github.com/user-attachments/assets/placeholder-video-url" controls="controls" muted="muted" style="max-width: 100%; height: auto;"></video>
+
+  <br />
+  <p>
+    <a href="https://automativ.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-▶-4f46e5?style=for-the-badge" alt="Live Demo"></a>
+    <a href="https://automativ.vercel.app/learnings"><img src="https://img.shields.io/badge/Engineering_Learnings-📘-059669?style=for-the-badge" alt="Learnings"></a>
+    <a href="https://youtu.be/21iRAKUv2gA"><img src="https://img.shields.io/badge/Watch_Brief_Automativ_Demonstration-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Brief Automativ Demonstration" /></a>
+  </p>
+</div>
 
 <br />
 
