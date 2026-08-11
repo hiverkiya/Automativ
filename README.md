@@ -6,9 +6,16 @@
     <img src="https://img.shields.io/badge/Next.js-15-555555?style=flat-square&logo=next.js&labelColor=black" alt="Next.js 15">
     <img src="https://img.shields.io/badge/React_Flow-Nodes-555555?style=flat-square&labelColor=ff0071" alt="React Flow">
     <img src="https://img.shields.io/badge/Inngest-Durable_Workflows-555555?style=flat-square&labelColor=6366f1" alt="Inngest">
+    <img src="https://img.shields.io/badge/Vercel_AI_SDK-OpenAI%20%7C%20Anthropic%20%7C%20Gemini-black?style=flat-square&logo=vercel&logoColor=white" alt="Vercel AI SDK">
+    <img src="https://img.shields.io/badge/Better_Auth-000000?style=flat-square&logoColor=white" alt="Better Auth">
+    <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white" alt="Prisma">
+    <img src="https://img.shields.io/badge/tRPC-2596BE?style=flat-square&logo=tRPC&logoColor=white" alt="tRPC">
+    <img src="https://img.shields.io/badge/Jotai-000000?style=flat-square&logoColor=white" alt="Jotai">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+    <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" alt="Sentry">
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+    <img src="https://img.shields.io/badge/ngrok-1F1E37?style=flat-square&logo=ngrok&logoColor=white" alt="ngrok">
   </p>
-
-  <p><em>Build directed workflow graphs in a browser canvas, configure trigger and action nodes, save provider credentials, and run workflows through a durable background worker.</em></p>
 </div>
 
 <br />
