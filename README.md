@@ -31,9 +31,9 @@ https://github.com/user-attachments/assets/7a6faf61-83f3-4dde-8cd4-66888e6ddadd
 
   <br />
   <p>
-    <a href="https://automativ.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-▶-4f46e5?style=for-the-badge" alt="Live Demo"></a>
-    <a href="https://automativ.vercel.app/learnings"><img src="https://img.shields.io/badge/Engineering_Learnings-📘-059669?style=for-the-badge" alt="Learnings"></a>
-    <a href="https://youtu.be/21iRAKUv2gA"><img src="https://img.shields.io/badge/Watch_Brief_Automativ_Demonstration-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Brief Automativ Demonstration" /></a>
+    <a href="https://automativ.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"></a>
+    <a href="https://automativ.vercel.app/learnings"><img src="https://img.shields.io/badge/Engineering_Learnings-059669?style=for-the-badge&logo=gitbook&logoColor=white" alt="Learnings"></a>
+    <a href="https://youtu.be/21iRAKUv2gA"><img src="https://img.shields.io/badge/Watch_Demonstration-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Brief Automativ Demonstration" /></a>
   </p>
 </div>
 
