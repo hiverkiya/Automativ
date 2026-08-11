@@ -18,10 +18,6 @@
   </p>
 </div>
 
-<br />
-
-## 📸 Quick Demo
-
 <div align="center">
 
 
