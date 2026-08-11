@@ -17,7 +17,10 @@
 
 <div align="center">
 
-<video src="https://github.com/user-attachments/assets/placeholder-video-url" controls="controls" muted="muted" style="max-width: 100%; height: auto;"></video>
+
+https://github.com/user-attachments/assets/7a6faf61-83f3-4dde-8cd4-66888e6ddadd
+
+
 
   <br />
   <p>
